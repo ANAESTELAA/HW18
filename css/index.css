@@ -1,0 +1,162 @@
+main{
+    width:100%;
+    height:calc(100vh -60px);
+    background-color:hwb(30 38% 37% / 0.666);
+    margin-top:60px ;
+    background-image:url(../img/heroimage.jpeg);
+    background-size:75vh;
+    background-repeat: no-repeat;
+    background-position: top right ,center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    column-gap:220px ;
+    
+    
+}
+main .main-intro h1{
+    font-size:96px;
+    line-height: 106px;
+    
+}
+main p{
+    font-size:18px;
+    line-height: 30px;
+}
+main  h2{
+    font-size:55px;
+    line-height: 106px;
+}
+main a {
+    margin-top: 30px;
+    font-size:18px;
+    display:block;
+    height:36px;
+    line-height:36px;
+    background-color: var(--site-color-02);
+    padding: 0  20px;
+    width:fit-content;
+
+}
+main a:hover{
+   background-color:var(--site-color-01-hover);
+}
+main .main-intro{
+    position:relative;
+    right:20vh;
+    padding-bottom: 8vh;
+}
+
+
+.index-section-h3{
+    font-size: 18px;
+    line-height: 24px;
+    text-align:center;
+    text-shadow:  -2px 2px 4px #000;
+    z-index:100;
+}
+/*SLAM SECTION*/
+
+.index-project{
+     width:100%;
+    padding:60px 0;
+    background-color:white ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    column-gap: 60px;
+}
+.index-project-img img{
+    width:300px;
+    
+}
+.index-project-text{
+    flex-basis:455px;
+}
+.index-project-text p{
+    padding:20px 0;
+}
+.index-project-text a{
+    font-size:18px;
+    display:block;
+    height:36px;
+    background-color: black;
+    padding:0 20px;
+    width:fit-content;
+}
+/*ABOUT SECTION*/
+
+.index-about{
+    width:100%;
+    padding:60px 0;
+    background-color:#a18160 ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    column-gap: 60px;
+}
+.index-about-img img{
+    width:300px;
+    border-radius:80px;
+
+}
+.index-about-text{
+    flex-basis:455px;
+}
+.index-about-text p{
+    padding:20px 0;
+}
+.index-about-text a{
+    font-size:18px;
+    display:block;
+    height:36px;
+    background-color: var (--site-color-02);
+    padding:0 20px;
+    width:fit-content;
+}
+.index-about-text a:hover{
+    background-color:var(--site-color-01-hover);
+}
+.index-about-skill{
+    flex-basis: 320px;
+}
+
+.index-about-skill-bar{
+    width:100%;
+    height:20px;
+    border:solid #000;
+}
+.index-about-skill-bar-fill{
+   
+    height:100%;
+    background-color: var(--site-color-01-hover);
+}
+.uxui{
+    width:85%
+}
+
+.productde{
+    width:80%
+}
+.story{
+    width:75%
+}
+.proto{
+    width:75%
+}
+.user{
+    width:80%
+}
+.wire{
+    width:65%
+}
+.usability{
+    width:75%
+}
+.branding{
+    width:85%
+}
+.design{
+    width:95%
+}
