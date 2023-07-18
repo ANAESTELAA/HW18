@@ -8,7 +8,8 @@
     src: url(../Fonts/Roboto-Medium.ttf);
 }
 body{
-    background-color: var(--site-color-02);
+    background-color: var( --navsite-color-01);
+    margin:0 auto;
 }
 body:after{
     position:absolute;
