@@ -134,6 +134,8 @@ main .main-intro {
   display: flex;
 }
 .index-about-skill {
+  width: 57vw;
+  margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 20px;
