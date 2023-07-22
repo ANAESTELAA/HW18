@@ -1,35 +1,11 @@
 main {
   width: 100%;
-  height: 500px;
+  height: 700px;
   flex-shrink: 0;
-  /* width: 100%;
-  height: calc(100vh -60px); */
-  /* background:url(../img/mypic.jpeg); */
-
-  /* margin-top: 60px; */
-  background: url(../img/Rectangle\ 67.png);
+  background: url(../img/heroimage.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 40% 25%;
-  /* background-position: ; */
-
-  /* background-color: #a18160; */
-  /* background-image: url(../img/mypic.jpeg); */
-  /* background-image: linear-gradient(
-      to right,
-      rgba(161, 129, 96, 0),
-      rgba(161, 129, 96, 1)
-    ),
-    url(../img/mypic.jpeg); */
-  /* mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, transparent 100%); */
-  /* background-size: 600px; */
-  /* background-repeat: no-repeat;
-  background-position: top right, center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;
-  column-gap: 220px; */
 }
 
 main .main-intro h1 {
@@ -51,12 +27,12 @@ main a {
   display: block;
   height: 36px;
   line-height: 36px;
-  background-color: var(--site-color-02);
+  background-color: white;
   padding: 0 20px;
   width: fit-content;
 }
 main a:hover {
-  background-color: var(--site-color-01-hover);
+  background-color: #be25b9;
 }
 main .main-intro {
   position: relative;
@@ -72,107 +48,115 @@ main .main-intro {
   text-shadow: -2px 2px 4px #000;
   z-index: 100;
 }
-/*SLAM SECTION*/
+/* school  */
+.school {
+  width:100%;
+  padding:10px 0px; 
+  background-color: black;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  column-gap: 80px;
 
-.index-project {
-  width: 100%;
-  padding: 60px 0;
-  background-color: white;
-  display: flex;
+}
+.school-text h2{
+  color: aqua;
+  flex-basis:800px;
+
+}
+
+ /* Project section */
+ .skillsbox{
+  width:100%;
+  padding:10px 0px;
+  background-color: black;
+  display:flex;
   justify-content: center;
   align-items: center;
   column-gap: 60px;
 }
-.index-project-img img {
-  width: 300px;
-}
-.index-project-text {
-  flex-basis: 455px;
-}
-.index-project-text p {
-  padding: 20px 0;
-}
-.index-project-text a {
-  font-size: 18px;
-  display: block;
-  height: 36px;
-  background-color: black;
-  padding: 0 20px;
-  width: fit-content;
-}
-/*ABOUT SECTION*/
 
-.index-about {
-  width: 1000px;
-  background-color: var(--navsite-color-01);
-  margin: auto;
-  padding: 60px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  column-gap: 20px;
+.skillsbox-text h2{
+  color:purple;
 }
 
-.index-about-img img {
-  width: 300px;
-  border-radius: 40px;
-}
-.index-about-text {
-  flex-basis: 450px;
-}
-.index-about-text p {
-  padding: auto 0;
-}
 
-/* skills ovals */
-
-.index-skills-text p {
-  width: fit-content;
-  height: 100%;
-  padding-left: 60px;
-  display: flex;
-}
-.index-about-skill {
-  width: 57vw;
-  margin: auto;
-  display: grid;
+.grid{
+  display:grid;
   grid-template-columns: auto auto auto;
-  gap: 20px;
-  flex-basis: 320px;
+  grid-gap:20px;
+  padding:50px;
+  justify-content: center;
 }
-.skills-ovals {
-  font-family: Inter, sans-serif;
-  background-color: #b99a7c;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 0 auto;
-  height: 30px;
-  display: block;
-  width: 200px;
-}
+.grid > div{
+  color:black;
+  background-color:white;
+  text-align:center;
+  padding:15px 20px;
+  font-size:30px;
+  border-radius: 8px;
+  }
 
-.Product-Design {
-  width: 80%;
+
+.slam{
+  width:100%;
+  padding:20px 0px;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
 }
-.Storyboarding {
-  width: 75%;
+.slam-img img{
+  width:500px;
+  border-radius: 10px;
 }
-.Prototyping {
-  width: 75%;
+.slam-text{
+  flex-basis:500px;
+
 }
-.UserResearch {
-  width: 80%;
+.slam-text h2{
+  color:black;
 }
-.Wireframing {
-  width: 65%;
+.slam-text p{
+  padding:20px 0;
+  color:black;
 }
-.Usability-Testing {
-  width: 75%;
+.treasury{
+  width:100%;
+  padding:20px 0px;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
 }
-.branding {
-  width: 85%;
+.treasury-text{
+  flex-basis:600px;
 }
-.design {
-  width: 95%;
+.treasury-img img{
+  width:400px;
+  border-radius: 10px;
+}
+.playbook{
+  width:100%;
+  padding:60px 0px;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+}
+.playbook-text{
+  flex-basis:600px;
+}
+.playbook-text h2{
+  color:black;
+}
+.playbook-text p{
+  color:black;
+}
+.playbook-img img{
+  width:250px;
+  border-radius: 10px;
 }
