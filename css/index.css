@@ -32,7 +32,7 @@ main a {
   width: fit-content;
 }
 main a:hover {
-  background-color: #be25b9;
+  background-color: white;
 }
 main .main-intro {
   position: relative;
