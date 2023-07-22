@@ -50,113 +50,108 @@ main .main-intro {
 }
 /* school  */
 .school {
-  width:100%;
-  padding:10px 0px; 
+  width: 100%;
+  padding: 10px 0px;
   background-color: black;
-  display:flex;
-  justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   column-gap: 80px;
-
 }
-.school-text h2{
+.school-text h2 {
   color: aqua;
-  flex-basis:800px;
-
+  flex-basis: 800px;
 }
 
- /* Project section */
- .skillsbox{
-  width:100%;
-  padding:10px 0px;
+/* Project section */
+.skillsbox {
+  width: 100%;
+  padding: 10px 0px;
   background-color: black;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 60px;
 }
 
-.skillsbox-text h2{
-  color:purple;
+.skillsbox-text h2 {
+  color: purple;
 }
 
-
-.grid{
-  display:grid;
+.grid {
+  display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap:20px;
-  padding:50px;
+  grid-gap: 20px;
+  padding: 50px;
   justify-content: center;
 }
-.grid > div{
-  color:black;
-  background-color:white;
-  text-align:center;
-  padding:15px 20px;
-  font-size:30px;
+.grid > div {
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 30px;
   border-radius: 8px;
-  }
+}
 
-
-.slam{
-  width:100%;
-  padding:20px 0px;
+.slam {
+  width: 100%;
+  padding: 20px 0px;
   background-color: white;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 60px;
 }
-.slam-img img{
-  width:500px;
+.slam-img img {
+  width: 500px;
   border-radius: 10px;
 }
-.slam-text{
-  flex-basis:500px;
-
+.slam-text {
+  flex-basis: 500px;
 }
-.slam-text h2{
-  color:black;
+.slam-text h2 {
+  color: black;
 }
-.slam-text p{
-  padding:20px 0;
-  color:black;
+.slam-text p {
+  padding: 20px 0;
+  color: black;
 }
-.treasury{
-  width:100%;
-  padding:20px 0px;
+.treasury {
+  width: 100%;
+  padding: 20px 0px;
   background-color: black;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 60px;
 }
-.treasury-text{
-  flex-basis:600px;
+.treasury-text {
+  flex-basis: 600px;
 }
-.treasury-img img{
-  width:400px;
+.treasury-img img {
+  width: 400px;
   border-radius: 10px;
 }
-.playbook{
-  width:100%;
-  padding:60px 0px;
+.playbook {
+  width: 100%;
+  padding: 60px 0px;
   background-color: white;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 60px;
 }
-.playbook-text{
-  flex-basis:600px;
+.playbook-text {
+  flex-basis: 600px;
 }
-.playbook-text h2{
-  color:black;
+.playbook-text h2 {
+  color: black;
 }
-.playbook-text p{
-  color:black;
+.playbook-text p {
+  color: black;
 }
-.playbook-img img{
-  width:250px;
+.playbook-img img {
+  width: 250px;
   border-radius: 10px;
 }
