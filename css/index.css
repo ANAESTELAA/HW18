@@ -51,7 +51,7 @@ main .main-intro {
 /* school  */
 .school {
   width: 100%;
-  padding: 10px 0px;
+  padding: 20px 0px;
   background-color: black;
   display: flex;
   justify-content: space-around;
@@ -59,99 +59,104 @@ main .main-intro {
   column-gap: 80px;
 }
 .school-text h2 {
-  color: aqua;
   flex-basis: 800px;
 }
-
-/* Project section */
-.skillsbox {
-  width: 100%;
-  padding: 10px 0px;
-  background-color: black;
+/* ux18skills */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 60px;
+  margin: 0 -5px;
 }
-
-.skillsbox-text h2 {
-  color: purple;
+.row1 {
+  display: flex;
+  flex-direction: column;
+  gap:40px;
 }
-
-.grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 20px;
-  padding: 50px;
-  justify-content: center;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.grid > div {
-  color: black;
-  background-color: white;
+.card {
+  padding: 16px;
   text-align: center;
-  padding: 15px 20px;
-  font-size: 30px;
-  border-radius: 8px;
+  background-color: purple;
+}
+.column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
 }
 
-.slam {
-  width: 100%;
-  padding: 20px 0px;
-  background-color: white;
+/* .skills {
+  display: grid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ 
+}
+
+.container {
+  padding: 2px 16px;
+}
+ */
+
+/* Projects */
+.card-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 60px;
+  flex-direction: column;
+  border: 1px;
+  width: 85%;
+  margin: auto;
 }
-.slam-img img {
-  width: 500px;
-  border-radius: 10px;
-}
-.slam-text {
-  flex-basis: 500px;
-}
-.slam-text h2 {
-  color: black;
-}
-.slam-text p {
-  padding: 20px 0;
-  color: black;
-}
-.treasury {
-  width: 100%;
-  padding: 20px 0px;
-  background-color: black;
+.card-1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 60px;
+  background-color: aquamarine;
+  border: 5px;
 }
-.treasury-text {
-  flex-basis: 600px;
+.card-image-1 {
+  width: 30%;
 }
-.treasury-img img {
-  width: 400px;
-  border-radius: 10px;
-}
-.playbook {
+.card-image-1 img {
   width: 100%;
-  padding: 60px 0px;
-  background-color: white;
+  min-height: 100%;
+}
+.card-text-1 {
+  width: 70%;
+  padding: 10px;
+}
+
+.card-2 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 60px;
+  background-color: aquamarine;
+  border: 5px;
 }
-.playbook-text {
-  flex-basis: 600px;
+.card-image-2 {
+  width: 30%;
 }
-.playbook-text h2 {
-  color: black;
+.card-image-2 img {
+  width: 100%;
+  min-height: 100%;
 }
-.playbook-text p {
-  color: black;
+.card-text-2 {
+  width: 70%;
+  padding: 10px;
 }
-.playbook-img img {
-  width: 250px;
-  border-radius: 10px;
+.card-3 {
+  display: flex;
+  background-color: aquamarine;
+  border: 5px;
+}
+.card-image-3 {
+  width: 30%;
+}
+.card-image-3 img {
+  width: 100%;
+  min-height: 100%;
+}
+.card-text-3 {
+  width: 70%;
+  padding: 10px;
 }
