@@ -70,12 +70,16 @@ main .main-intro {
 .row {
   display: flex;
   margin: 0 -5px;
+  flex-direction: column;
+  gap: 40px;
 }
 .row1 {
   display: flex;
-  flex-direction: column;
-  gap:40px;
+  margin: 0 -5px;
+  flex-direction: row;
+  gap: 40px;
 }
+
 .row:after {
   content: "";
   display: table;
@@ -92,28 +96,17 @@ main .main-intro {
   margin-bottom: 20px;
 }
 
-/* .skills {
-  display: grid;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
- 
-}
-
-.container {
-  padding: 2px 16px;
-}
- */
-
 /* Projects */
 .card-container {
-  display: flex;
   flex-direction: column;
+  display: flex;
   border: 1px;
   width: 85%;
   margin: auto;
 }
 .card-1 {
   display: flex;
-  background-color: aquamarine;
+  background-color: rgb(242, 243, 227);
   border: 5px;
 }
 .card-image-1 {
