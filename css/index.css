@@ -67,17 +67,18 @@ main .main-intro {
   width: 25%;
   padding: 0 10px;
 }
-.row {
+.Skills {
   display: flex;
   margin: 0 -5px;
   flex-direction: column;
   gap: 40px;
 }
-.row1 {
+.Project {
   display: flex;
   margin: 0 -5px;
   flex-direction: row;
   gap: 40px;
+  padding: 50px;
 }
 
 .row:after {
@@ -97,6 +98,21 @@ main .main-intro {
 }
 
 /* Projects */
+.myWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.myWork h1 {
+  margin-bottom: 60px;
+}
+.Project {
+  display: flex;
+  margin: 0 -5px;
+  flex-direction: row;
+  gap: 40px;
+  padding: 50px;
+}
 .card-container {
   flex-direction: column;
   display: flex;
@@ -105,8 +121,9 @@ main .main-intro {
   margin: auto;
 }
 .card-1 {
+  justify-content: space-between;
   display: flex;
-  background-color: rgb(242, 243, 227);
+  background-color: black;
   border: 5px;
 }
 .card-image-1 {
@@ -119,11 +136,20 @@ main .main-intro {
 .card-text-1 {
   width: 70%;
   padding: 10px;
-}
-
-.card-2 {
   display: flex;
-  background-color: aquamarine;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardBackground {
+  width: 100%;
+  background-color: white;
+  padding: 20px 0px;
+}
+.card-2 {
+  justify-content: space-between;
+  display: flex;
+  background-color: white;
   border: 5px;
 }
 .card-image-2 {
@@ -136,10 +162,21 @@ main .main-intro {
 .card-text-2 {
   width: 70%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-text-2 p {
+  color: #000;
+}
+.card-text-2 h2 {
+  color: #000;
 }
 .card-3 {
+  justify-content: space-between;
   display: flex;
-  background-color: aquamarine;
+  background-color: black;
   border: 5px;
 }
 .card-image-3 {
@@ -152,4 +189,8 @@ main .main-intro {
 .card-text-3 {
   width: 70%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
